@@ -1,0 +1,4 @@
+.env
+node_modules
+NOTES_TO_SELF.txt
+experiments.js

@@ -1,0 +1,18 @@
+#graph {
+    background-color: #fff9cc;
+}
+
+#overallConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centredText {
+    text-align: center;
+}
+
+.highlightedText {
+    background-color: yellow;
+    font-size: 24px;
+}
