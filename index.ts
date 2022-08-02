@@ -43,7 +43,7 @@ const extractDataAndCalculateStatistics = async (APIresponseArray: any[]) => {
     dayMinimaStats = [];
     for (let i = 0; i < APIresponseArray.length; i++) {
         let temperatureArray: number[] = [];
-        APIresponseArray[i].hourly.forEach(hour => {
+        APIresponseArray[i].hourly.forEach((hour: any) => {
             temperatureArray.push(hour.temp);
         });
         let dayMax = Math.max(...temperatureArray);
