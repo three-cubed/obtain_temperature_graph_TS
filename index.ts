@@ -1,7 +1,4 @@
-// const express = require('express');
 import express from 'express';
-
-// const fetch = require('node-fetch');
 import fetch from 'node-fetch';
 
 const Statistics = require('statistics.js');
